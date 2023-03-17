@@ -1,0 +1,11 @@
+echo off
+del SO\html\assets\*.png
+del SO\html\pages\*.html
+del SO\html\styles\*.css
+del SO\html\scripts\*.js
+rd SO\html\assets
+rd SO\html\pages
+rd SO\html\styles
+rd SO\html\scripts
+rd SO\html
+rd SO

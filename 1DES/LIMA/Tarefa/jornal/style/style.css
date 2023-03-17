@@ -1,0 +1,204 @@
+* {
+    background-color: rgb(238, 238, 238);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 115%;
+    align-items: center;
+    margin-left: 3%;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(117, 117, 117);
+}
+
+p {
+    font-size: 10px;
+    padding-top: 13%;
+}
+
+.img {
+    height: 90%;
+    width: 150%;
+    grid-area: 1;
+    flex-direction: column;
+}
+
+.img2 {
+    width: 25px;
+    background-color: transparent;
+}
+
+.img3 {
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 25%;
+}
+
+.a {
+    color: rgb(198, 49, 16);
+    padding-right: 5%;
+}
+
+.b {
+    color: rgb(17, 175, 17);
+    padding-right: 5%;
+}
+
+.c {
+    color: rgb(87, 198, 217);
+    padding-right: 5%;
+}
+
+.d {
+    font-weight: bold;
+    padding-right: 5%;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    /* margin-top: 1%; */
+}
+
+.text {
+    grid-area: 0;
+}
+
+.na {
+    width: 58%;
+}
+
+.divBusca {
+    background-color: rgb(171, 171, 171);
+    border: solid 1px;
+    border-radius: 15px;
+    width: 15%;
+    align-items: center;
+    height: 28px;
+}
+
+.txtBusca {
+    float: left;
+    height: 25px;
+    width: 82%;
+    border: none;
+    color: black;
+    border-radius: 15px;
+    padding-left: 3%;
+    background-color: transparent;
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 75%;
+    margin-left: 16%;
+    margin-top: 3%;
+}
+
+.imagem {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 75%;
+}
+
+.menu {
+    border: 15px solid white;
+    width: 125%;
+    height: max-content;
+    display: inline-grid;
+    grid-area: 1/3;
+}
+
+.menuL {
+    background-color: white;
+    padding: 10%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(117, 117, 117)
+}
+
+.menuLi {
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(117, 117, 117)
+}
+
+@media(max-width:900px) {
+    body {
+        flex-direction: column;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        width:95%;
+        
+        
+    }
+    .imagem {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .img {
+        height: 85%;      
+        grid-area: 1;
+        flex-direction: column;
+    }
+    .img2 {
+        width: 7%;
+    }
+    .img3 {
+        height: 10%;
+        width: 10%;
+        display: flex;
+        flex-direction: row;
+        padding: 0 4% 0 3%;
+    }
+    .divBusca {
+        border: solid 1px;
+        border-radius: 15px;
+        width: 25%;
+        margin-bottom: 5%;
+    }
+    .txtBusca {
+        float: left;
+        height: 20px;
+        width: 85%;
+        border-radius: 15px;
+    }
+    .principal {
+        display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 20%;
+    margin-top: 2%;
+    align-items: center;
+    }
+    .menu {
+        height: 385px;
+        background-color: white;
+        width: 35%;
+        float: right;
+        grid-area: 2;
+        margin: 0% 20%;
+    }
+    .text {
+        grid-area: 0;
+    }
+}

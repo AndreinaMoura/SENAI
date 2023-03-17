@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(204, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    align-items: center;
+}
+.logo{
+    width: 17vw;
+    margin: 20px;
+}
+.linha {
+    display: inline;
+    background-color: #fff;
+    width: 3vw;
+    border-radius: 100%;
+    text-align: center;
+    border: 1px solid #44babc;
+    margin: 5px;
+    color:#35797d;
+}
+
+.linha2 {
+    display: inline;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 100%;
+    text-align: center;
+    margin: 5px;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.conteudo2 {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+main {
+    background-color: rgb(238, 237, 235);
+    width: 25vw;
+    height: 35vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.linha:hover {
+    display: inline;
+    background-color: #35797d;
+    color:#fff;
+    text-align: center;
+    border: 1px solid #44babc;
+    margin: 5px;
+    cursor:pointer;
+}
+.seta{
+    width: 20px;
+    margin-top: 12px;
+}

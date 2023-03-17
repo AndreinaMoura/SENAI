@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+.list{
+    margin: 1%;
+    font-size: 30px;
+}
+.pag{
+    margin: 1%;
+    font-size: 18px;
+}
+.proxp{
+    margin: 1%;
+    float: right;
+}
+header{
+    margin-bottom: 50px;
+}
+.header{
+    width:100%;
+    background-color:rgb(205,67,72);
+    height: 100px;
+}  
+.aside{
+    width:30%;
+    height: 600px;
+    background-color:rgb(204,145,147);
+} 
+.cont{
+    width: 70%;
+    height: 600px;
+    background-color:rgb(116, 52, 54);
+}
+.footer{
+    width:100%;
+    background-color:rgb(157, 60, 63);
+    height: 100px;
+}
+.main{
+    display: flex;
+}

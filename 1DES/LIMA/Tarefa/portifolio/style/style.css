@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(147, 221, 255);
+}
+
+header{
+    display: flex;
+    height: 30%;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.textinho{
+    display: flex;
+    color: black;
+    text-align: center;
+    flex-direction: column;
+}
+.titulo{
+    font-size:25px;
+    display: flex;
+    color: black;
+}

@@ -1,0 +1,9 @@
+echo off
+md SO
+cd SO
+md html
+cd html
+md assets
+md pages
+md styles
+md scripts

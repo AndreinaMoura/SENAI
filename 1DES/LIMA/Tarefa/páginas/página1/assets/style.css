@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+}
+.list{
+    font-size: 30px;
+    padding-left: 2%;
+}
+.pag{
+    font-size: 18px;
+    padding-left: 2%;
+}
+.proxp{
+    float: right;
+    
+}     
+
+.itens1{
+    margin-top: 5%;
+    flex-direction: column;
+    padding: 1%;
+    padding-left: 3%;
+}
+.itens2{
+    margin-top: 5%;
+    display: flex;
+    padding-left: 3%;
+}
+.itens3{
+    margin-top: 5%;
+    display: flex;
+    list-style-type: none;
+    padding-left: 1%;
+}
+.l{
+    padding-right:30px;
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-2 bg-primary">
+                <h1 class="text-sucess"></h1>
+            </div>
+            <div class="col-12 col-lg-8 bg-info">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="text" class="form-control" placeholder="Informe seu email">
+                <select class="form-select">
+                    <option value="">Valor 1</option>
+                    <option value="">Valor 2</option>
+                    <option value="">Valor 3</option>
+                </select>
+                <div class="form-check">
+                    <input type="checkbox" id="valor1" class="form-check-input">
+                    <label for="valor1" class="form-check-label">Valor 1</label>
+                </div>
+                <form class="needs-validation was-validated" novalidate>
+                    <div class="col-5">
+                        <label for="nome" class="form-label">Nome Completo</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Informe o nome completo"
+                            required>
+                        <div class="invalid-feedback">
+                            Campo nome obrigatório!
+                        </div>
+                        <div class="valid-feedback">
+                            Vlw man!
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary m-1">Cadastrar</button>
+                </form>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <h2 class="accordio-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#q1"
+                                aria-expanded="false">
+                                Quais são os breakpoints do Bootstrap?
+                            </button>
+                        </h2>
+                        <div id="q1" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Classe do Bootstrap</th>
+                                            <th>Largura em px</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>none</td>
+                                            <td>
+                                                <p>
+                                                    <576< /p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>sm</td>
+                                            <td>=576</td>
+                                        </tr>
+                                        <tr>
+                                            <td>md</td>
+                                            <td>>=768</td>
+                                        </tr>
+                                        <tr>
+                                            <td>lg</td>
+                                            <td>>=992</td>
+                                        </tr>
+                                        <tr>
+                                            <td>xl</td>
+                                            <td>>=1200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>xxl</td>
+                                            <td>>=1400</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordio-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#q2"
+                                aria-expanded="false">
+                                Para que serve a propriedade data-bs-target?
+                            </button>
+                        </h2>
+                        <div id="q2" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <p>Destino a ser alterado de acordo com ação do bootstrap.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordio-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#q3">
+                                Quais os links para importar o Bootstrap?
+                            </button>
+                        </h2>
+                        <div id="q3" class="accordion-collapse collapse">
+                            <h6>Link do Javascript</h6>
+                            <p>https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js</p>
+                            <h6>Link do CSS</h6>
+                            <p>https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary position-relative m-1">
+                        Notificações
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">5</span>
+                    </button>
+                    <div id="sla" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#sla" data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="#sla" data-bs-slide-to="1" aria-current="true"
+                                class="active"></button>
+                            <button type="button" data-bs-target="#sla" data-bs-slide-to="2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/img1.jpg">
+                            </div>
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/img2.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/img3.jpg">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" data-bs-target="#sla" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Voltar</span>
+                        </button>
+                        <button type="button" class="carousel-control-next" data-bs-target="#sla" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                    </div>
+                </div>
+                <div class="card mt-4" style="width: 18rem">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Australian_cart.jpg/1200px-Australian_cart.jpg"
+                        alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title">Carroça executiva</div>
+                        <p class="card-text">Único dono, banco de couro, ar condicionado, suspensão hidráulica, cavalo
+                            de brinde e rodas crômaticas</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+                <button id="btnT" type="button" class="btn btn-primary m-1" data-bs-toggle="modal"
+                    data-bs-target="#mtest">Mostrar Modal</button>
+
+                <div id="mtest" class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="modal-title">Exemplo modal</div>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Texto modelo modal</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn btn-primary">Cadastrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary" id="btntoast">Fechar</button>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="toast" class="toast" aria-live="assertive">
+                        <div class="toast-header">
+                            <strong class="me-auto">Notificações</strong>
+                            <small>11 min</small>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Fechar"></button>
+                        </div>
+                        <div class="toast-body">
+                            <p>O texto da sua notificação!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-2 bg-primary">
+                <h1 class="text-sucess"></h1>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

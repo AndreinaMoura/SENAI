@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+body {
+    background-image: linear-gradient(#ee3222, #cc2e85, #ffc0cb);
+    background-repeat: no-repeat;
+    width: inherit;
+}
+
+ul li {
+    display: flex;
+    padding: 0px 20px;
+    margin: 2%;
+    height: 50%;
+    color: white;
+}
+
+p {
+    color: white;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+p:hover {
+    color: black;
+    cursor: pointer;
+}
+
+ul li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 1%;
+    font-size: 1em;
+    width: inherit;
+}
+
+.entrar {
+    display: flex;
+    justify-content: space-around;
+    height: 20px;
+    padding: 0 15px;
+    margin: 0;
+    width: inherit;
+}
+
+.Busca {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0 15px;
+    border-radius: 15px;
+    width: inherit;
+}
+
+.txtBusca {
+    align-items: center;
+    display: flex;
+    float: left;
+    font-size: 1em;
+    height: 32px;
+    width: 100%;
+    border: none;
+}
+
+.lupa {
+    align-items: center;
+    display: flex;
+    max-height: 10px;
+    cursor: pointer;
+    width: inherit;
+}
+
+.carrinho {
+    padding: 0 15px;
+    display: flex;
+    height: 65px;
+    cursor: pointer;
+    width: inherit;
+}
+
+.logo {
+    border-radius: 100%;
+    display: flex;
+    background-color: black;
+    cursor: pointer;
+    width: inherit;
+    height: 60px;
+}
+
+nav {
+    padding: 1% 20%;
+    background-color: rgb(255, 153, 0);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 1px solid white;
+    width: inherit;
+}
+
+nav p {
+    margin: 0 5%;
+}
+
+.filtro {
+    background-color: rgb(255, 153, 0);
+    border: 1px solid white;
+    font-size: 1em;
+    width: 140px;
+    height: 100px;
+    padding: 1% 0;
+    float: left;
+    text-align: left;
+    margin: 1% 1% 20% 1%;
+}
+
+.image {
+    height: 200px;
+    width: 140px;
+    max-width: 100%;
+    transition: all 0.2s;
+    background-color: black;
+}
+
+.image:hover {
+    flex-wrap: wrap;
+    box-shadow: 10px 5px 5px black;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.box1 {
+    width: 33.33%;
+}
+
+.box2 {
+    width: 33.33%;
+}
+
+.linha1 {
+    display: flex;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 5% 1% 5% 1%;
+}
+
+.linha2 {
+    display: flex;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 5% 1% 5% 1%;
+}
+
+footer {
+    margin: 0;
+    padding: 2% 15%;
+    background-color: rgb(255, 153, 0);
+    display: flow-root;
+    width: inherit;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.coluna {
+    display: inline;
+    float: left;
+    width: 33.33%;
+}
+
+@media(max-width:930px) {
+    .body {
+        display: contents;
+    }
+    .aside {
+        display: contents;
+    }
+    .filtro {
+        margin: 1% 1% 50% 1%;
+    }
+    .header {
+        display: contents;
+    }
+    .main {
+        display: column;
+    }
+    .footer {
+        display: column;
+    }
+}
+
+
+/* @media(max-width:600px) { 
+    .body {
+        display: contents;
+    }
+    .selection {
+        display: contents;
+    }
+    .content {
+        display: contents;
+        align-items: center;
+    }
+    .content1 {
+        display: column;
+        align-items: center;
+    }
+    .content2 {
+        display: column;
+        align-items: center;
+    }
+    .category {
+        display: column;
+        align-items: center;
+    }
+    .header {
+        width: auto;
+        display: contents;
+    }
+    .main {
+        width: auto;
+        display: contents;
+    }
+    .p {
+        width: auto;
+        display: contents;
+    }
+    .filtro {
+        margin: 1% 1% 100% 1%;
+    }
+    .footer {
+        display: contents;
+    }
+}*/
